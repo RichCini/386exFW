@@ -1,0 +1,325 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "c0debc4e-c71d-4593-acf2-f11eca261d59")
+	(paper "A4")
+	(title_block
+		(title "386SX Embedded Expansion Card")
+		(date "2024-07-26")
+		(rev "1.0-001")
+		(company "Circuit Cellar/Computer Applications Journal")
+		(comment 1 "Redraw by Richard Cini 07/2024")
+		(comment 2 "Original by Ed Nisley")
+	)
+	(lib_symbols)
+	(sheet
+		(at 172.72 25.4)
+		(size 22.86 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "076fe2f2-42a0-443f-b0bc-47f7a5d9b18e")
+		(property "Sheetname" "Memory"
+			(at 172.72 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "memory.kicad_sch"
+			(at 172.72 43.7646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "386sxEmbedded"
+				(path "/c0debc4e-c71d-4593-acf2-f11eca261d59"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 31.75 55.88)
+		(size 25.4 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2d3b1586-3ac8-4c65-915b-fe78dd1af7fe")
+		(property "Sheetname" "LCD Display"
+			(at 31.75 55.1684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "lcddisp.kicad_sch"
+			(at 31.75 72.9746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "386sxEmbedded"
+				(path "/c0debc4e-c71d-4593-acf2-f11eca261d59"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 67.31 25.4)
+		(size 25.4 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5eb9a044-2f58-404b-9f0e-c01e859989a8")
+		(property "Sheetname" "Address Decoder"
+			(at 67.31 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "decode.kicad_sch"
+			(at 67.31 43.7646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "386sxEmbedded"
+				(path "/c0debc4e-c71d-4593-acf2-f11eca261d59"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 204.47 25.4)
+		(size 21.59 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8a0516d9-02be-4ccc-b98e-c2b37e36e747")
+		(property "Sheetname" "Watchdog"
+			(at 204.47 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "watchdog.kicad_sch"
+			(at 204.47 43.7646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "386sxEmbedded"
+				(path "/c0debc4e-c71d-4593-acf2-f11eca261d59"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 104.14 25.4)
+		(size 24.13 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8a959b12-d398-4988-a098-501421a6d795")
+		(property "Sheetname" "Sense & Display"
+			(at 104.14 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sensedisp.kicad_sch"
+			(at 104.14 43.7646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "386sxEmbedded"
+				(path "/c0debc4e-c71d-4593-acf2-f11eca261d59"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 234.95 25.4)
+		(size 22.86 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8f660121-dd7b-4105-90a8-255fd8933c3c")
+		(property "Sheetname" "NVRAM"
+			(at 234.95 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "nvram.kicad_sch"
+			(at 234.95 43.7646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "386sxEmbedded"
+				(path "/c0debc4e-c71d-4593-acf2-f11eca261d59"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 31.496 24.892)
+		(size 25.908 18.034)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "aac9764a-bd50-4a6e-8f6e-f9dd3f2b3a68")
+		(property "Sheetname" "Bus Interface"
+			(at 31.496 24.1804 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "bus_if.kicad_sch"
+			(at 31.496 43.5106 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "386sxEmbedded"
+				(path "/c0debc4e-c71d-4593-acf2-f11eca261d59"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 139.7 25.4)
+		(size 22.86 17.78)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "bfd05aa4-5954-499d-b659-35537d4f6dd7")
+		(property "Sheetname" "Timer"
+			(at 139.7 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "timerpic.kicad_sch"
+			(at 139.7 43.7646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "386sxEmbedded"
+				(path "/c0debc4e-c71d-4593-acf2-f11eca261d59"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

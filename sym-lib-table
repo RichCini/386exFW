@@ -1,0 +1,7 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "2485")(type "KiCad")(uri "${CUSTOM_RAC1}/Keystone/2485.kicad_sym")(options "")(descr ""))
+  (lib (name "DS2401+")(type "KiCad")(uri "${CUSTOM_RAC1}/Maxim/DS2401+.kicad_sym")(options "")(descr ""))
+  (lib (name "4116R-1-331LF")(type "KiCad")(uri "${CUSTOM_RAC1}/Bourns/4116R-1-331LF.kicad_sym")(options "")(descr ""))
+  (lib (name "DA56-51EWA")(type "KiCad")(uri "${CUSTOM_RAC1}/Kingbright/DA56-51EWA.kicad_sym")(options "")(descr ""))
+)
